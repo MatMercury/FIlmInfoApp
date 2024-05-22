@@ -56,15 +56,39 @@
 		16F8AF002BFE240E00DD5058 /* FIlmInfoApp */ = {
 			isa = PBXGroup;
 			children = (
-				16F8AF012BFE240E00DD5058 /* AppDelegate.swift */,
-				16F8AF032BFE240E00DD5058 /* SceneDelegate.swift */,
-				16F8AF052BFE240E00DD5058 /* ViewController.swift */,
-				16F8AF072BFE240E00DD5058 /* Main.storyboard */,
+				16F8AF152BFE245200DD5058 /* App */,
+				16F8AF162BFE24BC00DD5058 /* ViewControllers */,
+				16F8AF172BFE24FD00DD5058 /* Storyboards */,
 				16F8AF0A2BFE241100DD5058 /* Assets.xcassets */,
-				16F8AF0C2BFE241100DD5058 /* LaunchScreen.storyboard */,
-				16F8AF0F2BFE241100DD5058 /* Info.plist */,
 			);
 			path = FIlmInfoApp;
+			sourceTree = "<group>";
+		};
+		16F8AF152BFE245200DD5058 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				16F8AF012BFE240E00DD5058 /* AppDelegate.swift */,
+				16F8AF032BFE240E00DD5058 /* SceneDelegate.swift */,
+				16F8AF0F2BFE241100DD5058 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		16F8AF162BFE24BC00DD5058 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				16F8AF052BFE240E00DD5058 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		16F8AF172BFE24FD00DD5058 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				16F8AF072BFE240E00DD5058 /* Main.storyboard */,
+				16F8AF0C2BFE241100DD5058 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,7 +318,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HWS2FMP8MU;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FIlmInfoApp/Info.plist;
+				INFOPLIST_FILE = FIlmInfoApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -307,9 +331,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Matthew.FIlmInfoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,7 +350,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HWS2FMP8MU;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FIlmInfoApp/Info.plist;
+				INFOPLIST_FILE = FIlmInfoApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -335,9 +363,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Matthew.FIlmInfoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
