@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		162DBBA22BFF5DE700CD849D /* MovieInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162DBBA12BFF5DE700CD849D /* MovieInfo.swift */; };
 		166D46492BFE2FEA00AEA368 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166D46482BFE2FEA00AEA368 /* MovieListViewController.swift */; };
 		16F8AF022BFE240E00DD5058 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F8AF012BFE240E00DD5058 /* AppDelegate.swift */; };
 		16F8AF042BFE240E00DD5058 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F8AF032BFE240E00DD5058 /* SceneDelegate.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		162DBBA12BFF5DE700CD849D /* MovieInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfo.swift; sourceTree = "<group>"; };
 		166D46482BFE2FEA00AEA368 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
 		16F8AEFE2BFE240E00DD5058 /* FIlmInfoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FIlmInfoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F8AF012BFE240E00DD5058 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		162DBBA32BFF5DEC00CD849D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				162DBBA12BFF5DE700CD849D /* MovieInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		16F8AEF52BFE240E00DD5058 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				16F8AF162BFE24BC00DD5058 /* ViewControllers */,
+				162DBBA32BFF5DEC00CD849D /* Model */,
 				16F8AF172BFE24FD00DD5058 /* Storyboards */,
 				16F8AF152BFE245200DD5058 /* App */,
 			);
@@ -164,6 +175,7 @@
 			files = (
 				166D46492BFE2FEA00AEA368 /* MovieListViewController.swift in Sources */,
 				16F8AF022BFE240E00DD5058 /* AppDelegate.swift in Sources */,
+				162DBBA22BFF5DE700CD849D /* MovieInfo.swift in Sources */,
 				16F8AF042BFE240E00DD5058 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
